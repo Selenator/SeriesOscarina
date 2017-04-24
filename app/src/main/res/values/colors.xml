@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c8787</color>
+    <color name="colorPrimaryDark">#006e6f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="superLightRed">#ffdbdb</color>
+    <color name="white">#ccdfdf</color>
+    <color name="rojoicon">#e05b49</color>
+    <color name="rojoicon2">#ec887a</color>
+    <color name="rojoicon3">#f19b90</color>
+    <color name="colorAux1">#549495</color>
+
+</resources>
