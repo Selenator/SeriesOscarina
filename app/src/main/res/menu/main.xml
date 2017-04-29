@@ -4,17 +4,24 @@
 
     <item
         android:id="@+id/orderBy"
-        android:title="Ordenar Por:" />
-    <item
-        android:id="@+id/orderByNombre"
-        android:title="Nombre" />
-    <item
-        android:id="@+id/orderByDisco"
-        android:title="Disco" />
-    <item
-        android:id="@+id/orderByAudio"
-        android:title="Audio" />
-    <item
-        android:id="@+id/orderBySub"
-        android:title="Subtitulos" />
+        android:title="Ordenar Por:">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/orderByNombre"
+                    android:checked="true"
+                    android:title="Nombre" />
+                <item
+                    android:id="@+id/orderByDisco"
+                    android:title="Disco" />
+                <item
+                    android:id="@+id/orderByAudio"
+                    android:title="Audio" />
+                <item
+                    android:id="@+id/orderBySub"
+                    android:title="Subtitulos" />
+            </group>
+        </menu>
+
+    </item>
 </menu>

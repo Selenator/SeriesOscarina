@@ -146,6 +146,8 @@ public class MainActivity extends AppCompatActivity
                 break;
         }
 
+        item.setChecked(true);
+
         return super.onOptionsItemSelected(item);
     }
 
